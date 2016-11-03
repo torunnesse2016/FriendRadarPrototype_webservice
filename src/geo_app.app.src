@@ -1,0 +1,21 @@
+{application, geo_app,
+ [{description, "An OTP application"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, { geo_app_app, []}},
+  {applications,
+   [kernel,
+    stdlib,
+    emysql,
+    poolboy,
+    lager,
+    eredis,
+    cowboy
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {maintainers, []},
+  {licenses, []},
+  {links, []}
+ ]}.
